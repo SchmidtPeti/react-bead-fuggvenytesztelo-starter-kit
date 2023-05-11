@@ -39,6 +39,10 @@ export const FunctionTester = ({ fn, input, output, tests, onFinish }) => {
 
   const addCustomTest = (test) => {
     setCustomTests((prevCustomTests) => [...prevCustomTests, test]);
+    setTestResults((prevTestResults) => ({
+      ...prevTestResults,
+      [test.name]: undefined,
+    }));
   };
 
   const handleDeleteCustomTest = (index) => {
@@ -46,7 +50,7 @@ export const FunctionTester = ({ fn, input, output, tests, onFinish }) => {
     setCustomTests((prevCustomTests) =>
       prevCustomTests.filter((_, i) => i !== index)
     );
-  
+
     // Also delete the corresponding test result
     setTestResults((prevTestResults) => {
       const updatedTestResults = { ...prevTestResults };
@@ -54,15 +58,23 @@ export const FunctionTester = ({ fn, input, output, tests, onFinish }) => {
       return updatedTestResults;
     });
   };
-  
 
   const handleEditCustomTest = (index) => {
     setEditingIndex(index);
   };
   const handleSaveEditedTest = (index, updatedTest) => {
+    const oldTest = customTests[index];
     setCustomTests((prevCustomTests) =>
       prevCustomTests.map((test, i) => (i === index ? updatedTest : test))
     );
+
+    // Also update the corresponding test result
+    setTestResults((prevTestResults) => {
+      const updatedTestResults = { ...prevTestResults };
+      delete updatedTestResults[oldTest.name];
+      updatedTestResults[updatedTest.name] = undefined;
+      return updatedTestResults;
+    });
   };
   
   const handleRunAllTests = () => {
@@ -77,9 +89,24 @@ export const FunctionTester = ({ fn, input, output, tests, onFinish }) => {
   };
 
   const handleFinish = () => {
+    const givenTestsWithResults = tests.map(test => ({
+      name: test.name,
+      result: testResults[test.name],
+    }));
+    const customTestsWithResults = customTests.map(test => ({
+      name: test.name,
+      input: test.inputs,
+      output: test.expectedOutput,
+      result: testResults[test.name],
+    }));
+    const testResult = {
+      achieved: totalPoints,
+      all: totalPoints + Object.keys(testResults).length - tests.length,
+    };
     onFinish({
-      givenTests: tests,
-      customTests,
+      givenTests: givenTestsWithResults,
+      testResult,
+      customTests: customTestsWithResults,
     });
   };
 

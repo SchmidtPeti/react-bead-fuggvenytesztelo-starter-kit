@@ -64,7 +64,7 @@ const TestTable = ({
                   : 'Failed'}
               </Button>
             </TableCell>
-            <TableCell>{test.points || ''}</TableCell>
+            <TableCell>{test.points || 'Not defined'}</TableCell>
             {handleDeleteCustomTest && handleEditCustomTest && (
               <>
                 <TableCell>
