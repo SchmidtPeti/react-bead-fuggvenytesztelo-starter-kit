@@ -7,8 +7,8 @@ _Kliensoldali webprogramozás 1. beadandó 2022-23-2_
 Kérlek, töltsétek ki az adataitokkal beadás előtt!
 
 ```txt
-<Hallgató neve>
-<Neptun kódja>
+Schmidt Péter Ottó
+wn5n9z
 Kliensoldali webprogramozás - beadandó
 Ezt a megoldást a fent írt hallgató küldte be és készítette a Kliensoldali webprogramozás kurzus számonkéréséhez.
 Kijelentem, hogy ez a megoldás a saját munkám. Nem másoltam vagy használtam harmadik féltől
@@ -25,41 +25,41 @@ A fegyelmi vétség legsúlyosabb következménye a hallgató elbocsátása az e
 Kérlek, beadás előtt töltsétek ki, hogy mely részfeladatokat oldottátok meg!
 
 ```txt
-[ ] A [kiadott keretprogram](https://github.com/horvathgyozo/react-bead-fuggvenytesztelo-starter-kit) használata (1pt)
-[ ] Legalább 4 komponens (1pt)
+[x] A [kiadott keretprogram](https://github.com/horvathgyozo/react-bead-fuggvenytesztelo-starter-kit) használata (1pt)
+[x] Legalább 4 komponens (1pt)
 
 Függvény
-  [ ] A függvény megjelenítésre kerül (1pt)
+  [x] A függvény megjelenítésre kerül (1pt)
 
 Előre megadott tesztek
-  [ ] Az előre megadott tesztek nevei felsorolásra kerülnek (1pt)
-  [ ] Az előre megadott tesztek egyesével futtathatók, eredményükről vizuális visszajelzést kapunk (1pt)
-  [ ] Az előre megadott tesztek egyszerre is futtathatók, ekkor is megfelelően változnak az egyes tesztek vizuális visszajelzései (1pt)
-  [ ] Egy előre megadott teszt sikeres futtatásánál megjelenítésre kerül a kapott pontszám (1pt)
-  [ ] Az összes előre megadott teszt futtatásánál megjelenik az elért összpontszám (1pt)
+  [x] Az előre megadott tesztek nevei felsorolásra kerülnek (1pt)
+  [x] Az előre megadott tesztek egyesével futtathatók, eredményükről vizuális visszajelzést kapunk (1pt)
+  [x] Az előre megadott tesztek egyszerre is futtathatók, ekkor is megfelelően változnak az egyes tesztek vizuális visszajelzései (1pt)
+  [x] Egy előre megadott teszt sikeres futtatásánál megjelenítésre kerül a kapott pontszám (1pt)
+  [x] Az összes előre megadott teszt futtatásánál megjelenik az elért összpontszám (1pt)
 
 Egyedi tesztek
-  [ ] Az egyedi tesztek listája megjelenik, sorszámuk és neveik felsorolásával (1pt)
-  [ ] Új egyedi teszt hozzáadása lehetséges (1pt)
-  [ ] Egy egyedi teszt szerkeszthető (1pt)
-  [ ] Egy egyedi teszt törölhető (1pt)
-  [ ] Egy teszt kiválasztásakor(=szerkesztésekor) megjelennek az `input` paraméterben **legfelső szinten** megadott szerkezetleírásnak megfelelő mezők. (1pt)
-  [ ] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **szöveg** típus megfelelően jelenik meg (1pt)
-  [ ] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **szám** típus megfelelően jelenik meg (1pt)
-  [ ] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **logikai** típus megfelelően jelenik meg (1pt)
-  [ ] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **tömb** típus megfelelően jelenik meg, lehetőség van új elemeket hozzáadni, meglévőeket szerkeszteni, törölni (3pt)
-  [ ] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **objektum** típus megfelelően jelenik meg, látszanak az objektum mezőnevei, amelyek típusuknak megfelelően szerkeszthetők (3pt)
+  [x] Az egyedi tesztek listája megjelenik, sorszámuk és neveik felsorolásával (1pt)
+  [x] Új egyedi teszt hozzáadása lehetséges (1pt)
+  [x] Egy egyedi teszt szerkeszthető (1pt)
+  [x] Egy egyedi teszt törölhető (1pt)
+  [x] Egy teszt kiválasztásakor(=szerkesztésekor) megjelennek az `input` paraméterben **legfelső szinten** megadott szerkezetleírásnak megfelelő mezők. (1pt)
+  [x] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **szöveg** típus megfelelően jelenik meg (1pt)
+  [x] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **szám** típus megfelelően jelenik meg (1pt)
+  [x] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **logikai** típus megfelelően jelenik meg (1pt)
+  [x] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **tömb** típus megfelelően jelenik meg, lehetőség van új elemeket hozzáadni, meglévőeket szerkeszteni, törölni (3pt)
+  [x] Az `input` paraméterben megadott szerkezet legfelső szintjén lévő **objektum** típus megfelelően jelenik meg, látszanak az objektum mezőnevei, amelyek típusuknak megfelelően szerkeszthetők (3pt)
   [ ] A megjelenített űrlapmezők kitöltöttsége ellenőrzésre kerül, a hibák listában kiíródnak (1pt)
   [ ] A hibalista egy elemére kattintva a fólusz a megfelelő elemre ugrik (1pt)
   [ ] **Tetszőleges** `input` struktúra megjelenítésre kerül rekurzívan (+5pt)
-  [ ] Az egyedi tesztek egyesével futtathatók, eredményükről vizuális visszajelzést kapunk (1pt)
-  [ ] Az egyedi tesztek egyszerre is futtathatók, ekkor is megfelelően változnak az egyes tesztek vizuális visszajelzései (1pt)
+  [x] Az egyedi tesztek egyesével futtathatók, eredményükről vizuális visszajelzést kapunk (1pt)
+  [x] Az egyedi tesztek egyszerre is futtathatók, ekkor is megfelelően változnak az egyes tesztek vizuális visszajelzései (1pt)
 
 "OK" gomb
-  [ ] Az "OK" gomb helyes működése (1pt)
+  [x] Az "OK" gomb helyes működése (1pt)
 
-[ ] Felhasználóbarát működés (1pt)
-[ ] Igényes megjelenés (2pt)
+[x] Felhasználóbarát működés (1pt)
+[x] Igényes megjelenés (2pt)
 [ ] 1 hét késés (-3pt)
 [ ] 2 hét késés (-6pt)
 ```
